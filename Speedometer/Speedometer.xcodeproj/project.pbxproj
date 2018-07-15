@@ -392,12 +392,13 @@
 					};
 					0A41197D1E92BBA300E37D76 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 69799356B7;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0A4119691E92BBA300E37D76;
 					};
 					0A4119881E92BBA300E37D76 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 69799356B7;
+						DevelopmentTeam = PTW7YD22E2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0A4119691E92BBA300E37D76;
 					};
@@ -712,6 +713,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69799356B7;
 				INFOPLIST_FILE = SpeedometerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynda.SpeedometerTests;
@@ -726,6 +728,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69799356B7;
 				INFOPLIST_FILE = SpeedometerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynda.SpeedometerTests;
@@ -739,11 +742,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 69799356B7;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTW7YD22E2;
 				INFOPLIST_FILE = SpeedometerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynda.SpeedometerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Speedometer;
 			};
@@ -753,11 +759,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 69799356B7;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTW7YD22E2;
 				INFOPLIST_FILE = SpeedometerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynda.SpeedometerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Speedometer;
 			};
